@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/madanapalle-institute-of-technology-and-science-chittoor-25410",
-  "https://www.shiksha.com/college/college-of-engineering-bhubaneswar-25182",
-  "https://www.shiksha.com/college/kakatiya-institute-of-technology-and-science-warangal-20412",
-  "https://www.shiksha.com/college/k-ramakrishnan-college-of-technology-tiruchirappalli-57527",
-  "https://www.shiksha.com/college/cmr-technical-campus-autonomous-engineering-college-medchal-hyderabad-42690",
-  "https://www.shiksha.com/college/aditya-institute-of-technology-and-management-srikakulam-25351",
-  "https://www.shiksha.com/university/centurion-university-of-technology-and-management-paralakhemundi-orissa-other-53023",
-  "https://www.shiksha.com/college/e-g-s-pillay-engineering-college-nagapattinam-19973",
-  "https://www.shiksha.com/college/silicon-institute-of-technology-bhubaneswar-34316",
-  "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093",
-  "https://www.shiksha.com/college/cummins-college-of-engineering-for-women-pune-karve-nagar-19783",
-  "https://www.shiksha.com/college/panimalar-engineering-college-poonamallee-chennai-20849",
-  "https://www.shiksha.com/college/pes-college-of-engineering-karnataka-other-36800",
-  "https://www.shiksha.com/college/st-joseph-s-college-of-engineering-old-mahabalipuram-road-chennai-24564",
-  "https://www.shiksha.com/university/uttaranchal-university-dehradun-4383",
-  "https://www.shiksha.com/college/pondicherry-engineering-college-pec-25083",
-  "https://www.shiksha.com/college/sns-college-of-technology-sns-group-of-institutions-coimbatore-22211",
-  "https://www.shiksha.com/college/sri-manakula-vinayagar-engineering-college-smvec-pondicherry-48021",
-  "https://www.shiksha.com/college/sri-venkateswara-college-of-engineering-tirupati-48365",
-  "https://www.shiksha.com/college/psna-college-of-engineering-and-technology-tamil-nadu-other-20917",
+  "https://www.shiksha.com/university/swarrnim-startup-and-innovation-university-ahmedabad-53998",
+  "https://www.shiksha.com/college/the-national-institute-of-engineering-north-campus-mysore-213949",
+  "https://www.shiksha.com/college/dhaanish-ahmed-college-of-engineering-padappai-chennai-38299",
+  "https://www.shiksha.com/university/ndri-national-dairy-research-institute-karnal-4313",
+  "https://www.shiksha.com/college/guru-gobind-singh-foundation-s-guru-gobind-singh-college-of-engineering-and-research-centre-nashik-59747",
+  "https://www.shiksha.com/college/vijaybhoomi-school-of-science-and-technology-vijaybhoomi-university-karjat-mumbai-154957",
+  "https://www.shiksha.com/college/p-r-pote-patil-college-of-engineering-and-management-amravati-59809",
+  "https://www.shiksha.com/college/government-college-of-engineering-biju-patnaik-university-of-technology-keonjhar-54895",
+  "https://www.shiksha.com/college/samrat-ashok-technological-institute-vidisha-19408",
+  "https://www.shiksha.com/college/sit-sinhgad-institute-of-technology-lonavla-pune-52041",
+  "https://www.shiksha.com/college/cce-christ-college-of-engineering-thrissur-55797",
+  "https://www.shiksha.com/university/csjm-chhatrapati-shahu-ji-maharaj-university-kanpur-23593",
+  "https://www.shiksha.com/college/tatyasaheb-kore-institute-of-engineering-technology-kolhapur-1474",
+  "https://www.shiksha.com/university/north-maharashtra-university-jalgaon-22122",
+  "https://www.shiksha.com/college/international-institute-for-aerospace-engineering-and-management-jain-deemed-to-be-university-kanakapura-road-bangalore-56029",
+  "https://www.shiksha.com/college/brindavan-college-of-engineering-yelahanaka-bangalore-26537",
+  "https://www.shiksha.com/university/sam-global-university-bhopal-150825",
+  "https://www.shiksha.com/college/government-college-of-engineering-and-leather-technology-gcelt-salt-lake-city-kolkata-19751",
+  "https://www.shiksha.com/university/indian-maritime-university-chennai-campus-37093",
+  "https://www.shiksha.com/college/dr-d-y-patil-school-of-engineering-talegaon-dabhade-pune-36825",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =101
+    c_count =521
 
     try:
         for base_url in BASE_URL:
