@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/swarrnim-startup-and-innovation-university-ahmedabad-53998",
-  "https://www.shiksha.com/college/the-national-institute-of-engineering-north-campus-mysore-213949",
-  "https://www.shiksha.com/college/dhaanish-ahmed-college-of-engineering-padappai-chennai-38299",
-  "https://www.shiksha.com/university/ndri-national-dairy-research-institute-karnal-4313",
-  "https://www.shiksha.com/college/guru-gobind-singh-foundation-s-guru-gobind-singh-college-of-engineering-and-research-centre-nashik-59747",
-  "https://www.shiksha.com/college/vijaybhoomi-school-of-science-and-technology-vijaybhoomi-university-karjat-mumbai-154957",
-  "https://www.shiksha.com/college/p-r-pote-patil-college-of-engineering-and-management-amravati-59809",
-  "https://www.shiksha.com/college/government-college-of-engineering-biju-patnaik-university-of-technology-keonjhar-54895",
-  "https://www.shiksha.com/college/samrat-ashok-technological-institute-vidisha-19408",
-  "https://www.shiksha.com/college/sit-sinhgad-institute-of-technology-lonavla-pune-52041",
-  "https://www.shiksha.com/college/cce-christ-college-of-engineering-thrissur-55797",
-  "https://www.shiksha.com/university/csjm-chhatrapati-shahu-ji-maharaj-university-kanpur-23593",
-  "https://www.shiksha.com/college/tatyasaheb-kore-institute-of-engineering-technology-kolhapur-1474",
-  "https://www.shiksha.com/university/north-maharashtra-university-jalgaon-22122",
-  "https://www.shiksha.com/college/international-institute-for-aerospace-engineering-and-management-jain-deemed-to-be-university-kanakapura-road-bangalore-56029",
-  "https://www.shiksha.com/college/brindavan-college-of-engineering-yelahanaka-bangalore-26537",
-  "https://www.shiksha.com/university/sam-global-university-bhopal-150825",
-  "https://www.shiksha.com/college/government-college-of-engineering-and-leather-technology-gcelt-salt-lake-city-kolkata-19751",
-  "https://www.shiksha.com/university/indian-maritime-university-chennai-campus-37093",
-  "https://www.shiksha.com/college/dr-d-y-patil-school-of-engineering-talegaon-dabhade-pune-36825",
+  "https://www.shiksha.com/college/ct-institute-of-engineering-management-and-technology-jalandhar-24809",
+  "https://www.shiksha.com/college/k-l-n-college-of-engineering-tamil-nadu-other-22729",
+  "https://www.shiksha.com/college/nagarjuna-institute-of-engineering-technology-management-nagpur-59703",
+  "https://www.shiksha.com/college/shantilal-shah-engineering-college-bhavnagar-21142",
+  "https://www.shiksha.com/university/jagan-nath-university-haryana-jhajjar-30525",
+  "https://www.shiksha.com/college/rajarshi-rananjay-sinh-institute-of-management-and-technology-rrsimt-uttar-pradesh-other-37490",
+  "https://www.shiksha.com/college/govindrao-wanjari-college-of-engineering-and-technology-nagpur-59699",
+  "https://www.shiksha.com/college/shri-hanuman-vyayam-prasarak-mandal-college-of-engineering-and-technology-amravati-21168",
+  "https://www.shiksha.com/college/grt-institute-of-engineering-and-technology-tiruvallur-chennai-38361",
+  "https://www.shiksha.com/college/sree-dattha-group-of-educational-institutions-ranga-reddy-47423",
+  "https://www.shiksha.com/college/kavikulguru-institute-of-technology-and-science-nagpur-20448",
+  "https://www.shiksha.com/college/aurora-s-technological-and-research-institute-uppal-hyderabad-25362",
+  "https://www.shiksha.com/college/techno-engineering-college-banipur-habra-kolkata-58961",
+  "https://www.shiksha.com/college/loyola-institute-of-technology-and-science-lites-kanyakumari-42602",
+  "https://www.shiksha.com/college/adarsh-institute-of-technology-and-research-centre-sangli-59405",
+  "https://www.shiksha.com/college/yashwantrao-bhonsale-institute-of-technology-sawantwadi-213383",
+  "https://www.shiksha.com/university/bikaner-technical-university-64933",
+  "https://www.shiksha.com/college/dhirajlal-gandhi-college-of-technology-dgct-salem-47335",
+  "https://www.shiksha.com/university/khaja-bandanawaz-university-gulbarga-64983",
+  "https://www.shiksha.com/college/jorhat-institute-of-science-and-technology-146393",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =521
+    c_count =1021
 
     try:
         for base_url in BASE_URL:
