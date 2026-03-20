@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/k-p-group-of-institutions-agra-56439",
-  "https://www.shiksha.com/college/sanketika-institute-of-technology-and-management-visakhapatnam-46614",
-  "https://www.shiksha.com/college/modern-engineering-and-management-studies-balasore-48008",
-  "https://www.shiksha.com/college/world-university-of-design-sonepat-48277",
-  "https://www.shiksha.com/college/srg-engineering-college-namakkal-61637",
-  "https://www.shiksha.com/college/grd-institute-of-management-and-technology-powered-by-sunstone-dehradun-213087",
-  "https://www.shiksha.com/university/people-s-university-bhopal-37151",
-  "https://www.shiksha.com/university/akal-university-bathinda-52462",
-  "https://www.shiksha.com/college/ideal-institute-of-management-and-technology-ghaziabad-53409",
-  "https://www.shiksha.com/college/college-of-food-technology-naigaon-nanded-71295",
-  "https://www.shiksha.com/college/aurora-s-engineering-college-nalgonda-19551",
-  "https://www.shiksha.com/college/rajdhani-engineering-college-jaipur-32798",
-  "https://www.shiksha.com/college/karnal-institute-of-technology-and-management-kurukshetra-42775",
-  "https://www.shiksha.com/college/aurora-group-of-institutions-chikkadpally-hyderabad-48420",
-  "https://www.shiksha.com/college/apex-institute-of-technology-rampur-59347",
-  "https://www.shiksha.com/college/arya-college-jaipur-236418",
-  "https://www.shiksha.com/college/akido-college-of-engineering-bahadurgarh-38490",
-  "https://www.shiksha.com/college/indus-college-of-engineering-bhubaneswar-42606",
-  "https://www.shiksha.com/college/chendhuran-college-of-engineering-and-technology-tamil-nadu-other-61683",
-  "https://www.shiksha.com/college/college-of-agricultural-engineering-and-technology-dapoli-ratnagiri-67001",
+  "https://www.shiksha.com/college/shri-sangved-sanskrit-mahavidyalaya-uttar-pradesh-other-116469",
+  "https://www.shiksha.com/college/don-bosco-institute-of-technology-and-science-guntur-188403",
+  "https://www.shiksha.com/college/ambal-professional-group-of-institutions-coimbatore-42847",
+  "https://www.shiksha.com/college/atmakur-engineering-college-nellore-46777",
+  "https://www.shiksha.com/college/audisankara-college-of-engineering-for-women-nellore-47271",
+  "https://www.shiksha.com/college/shivani-college-of-engineering-and-technology-tiruchirappalli-53905",
+  "https://www.shiksha.com/college/simhadri-educational-society-group-of-institutions-visakhapatnam-60983",
+  "https://www.shiksha.com/college/benaiah-institute-of-technology-and-sciences-rajahmundry-61143",
+  "https://www.shiksha.com/college/techno-india-balurghat-west-bengal-other-61433",
+  "https://www.shiksha.com/college/veerammal-engineering-college-dindigul-61751",
+  "https://www.shiksha.com/college/mahatma-gandhi-missions-college-of-engineering-nanded-63657",
+  "https://www.shiksha.com/college/global-group-of-institutions-anandpur-sahib-ropar-65191",
+  "https://www.shiksha.com/college/yaduvanshi-college-of-engineering-and-technology-narnaul-66863",
+  "https://www.shiksha.com/college/shivramji-pawar-gramin-institute-of-food-technology-nanded-66925",
+  "https://www.shiksha.com/college/sspm-college-of-food-technology-dhule-66959",
+  "https://www.shiksha.com/college/sendhwa-institute-of-professional-studies-barwani-230038",
+  "https://www.shiksha.com/college/bishambhar-sahay-institute-of-technology-roorkee-66545",
+  "https://www.shiksha.com/college/krishna-engineering-college-bhilai-66765",
+  "https://www.shiksha.com/college/avanthi-institute-of-engineering-technology-vizianagaram-188397",
+  "https://www.shiksha.com/college/impact-college-of-engineering-and-applied-sciences-powered-by-sunstone-bangalore-226959",,
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1821
+    c_count =2241
 
     try:
         for base_url in BASE_URL:
