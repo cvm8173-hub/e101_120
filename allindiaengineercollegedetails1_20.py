@@ -34,7 +34,7 @@ BASE_URL = [
   "https://www.shiksha.com/college/bishambhar-sahay-institute-of-technology-roorkee-66545",
   "https://www.shiksha.com/college/krishna-engineering-college-bhilai-66765",
   "https://www.shiksha.com/college/avanthi-institute-of-engineering-technology-vizianagaram-188397",
-  "https://www.shiksha.com/college/impact-college-of-engineering-and-applied-sciences-powered-by-sunstone-bangalore-226959",,
+  "https://www.shiksha.com/college/impact-college-of-engineering-and-applied-sciences-powered-by-sunstone-bangalore-226959",
 ]
 
 
