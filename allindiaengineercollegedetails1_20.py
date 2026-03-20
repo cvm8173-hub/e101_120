@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/techno-india-university-agartala-212937",
-  "https://www.shiksha.com/college/government-engineering-college-lakhisarai-purnia-146445",
-  "https://www.shiksha.com/college/vidya-knowledge-park-meerut-56085",
-  "https://www.shiksha.com/college/government-engineering-college-karwar-59361",
-  "https://www.shiksha.com/college/vel-tech-chennai-193835",
-  "https://www.shiksha.com/college/indur-institute-of-engineering-and-technology-medak-22657",
-  "https://www.shiksha.com/college/chhatrapati-shahu-ji-maharaj-group-of-institutions-allahabad-59537",
-  "https://www.shiksha.com/college/saraswati-group-of-colleges-mohali-91751",
-  "https://www.shiksha.com/college/shree-dhanvantary-college-of-engineering-and-technology-surat-155845",
-  "https://www.shiksha.com/college/ssm-college-of-engineering-namakkal-31549",
-  "https://www.shiksha.com/college/vidya-vikas-pratishthan-institute-of-engineering-and-technology-solapur-59701",
-  "https://www.shiksha.com/college/praveenya-institute-of-marine-engineering-vizianagaram-23527",
-  "https://www.shiksha.com/college/tritya-maritime-academy-lajpat-nagar-delhi-56077",
-  "https://www.shiksha.com/college/bharti-group-of-institutions-durg-48079",
-  "https://www.shiksha.com/college/jntuh-college-of-engineering-rajanna-sircilla-jawaharlal-nehru-technological-university-hyderabad-telangana-other-204991",
-  "https://www.shiksha.com/college/newton-s-institute-of-engineering-nie-guntur-20778",
-  "https://www.shiksha.com/college/school-of-bio-technology-iftm-university-moradabad-52963",
-  "https://www.shiksha.com/college/bosscoder-school-of-technology-raja-rajeshwari-nagar-bangalore-245936",
-  "https://www.shiksha.com/college/rungta-college-bhilai-21014",
-  "https://www.shiksha.com/college/jms-group-of-institutions-hapur-37965",
+  "https://www.shiksha.com/college/k-p-group-of-institutions-agra-56439",
+  "https://www.shiksha.com/college/sanketika-institute-of-technology-and-management-visakhapatnam-46614",
+  "https://www.shiksha.com/college/modern-engineering-and-management-studies-balasore-48008",
+  "https://www.shiksha.com/college/world-university-of-design-sonepat-48277",
+  "https://www.shiksha.com/college/srg-engineering-college-namakkal-61637",
+  "https://www.shiksha.com/college/grd-institute-of-management-and-technology-powered-by-sunstone-dehradun-213087",
+  "https://www.shiksha.com/university/people-s-university-bhopal-37151",
+  "https://www.shiksha.com/university/akal-university-bathinda-52462",
+  "https://www.shiksha.com/college/ideal-institute-of-management-and-technology-ghaziabad-53409",
+  "https://www.shiksha.com/college/college-of-food-technology-naigaon-nanded-71295",
+  "https://www.shiksha.com/college/aurora-s-engineering-college-nalgonda-19551",
+  "https://www.shiksha.com/college/rajdhani-engineering-college-jaipur-32798",
+  "https://www.shiksha.com/college/karnal-institute-of-technology-and-management-kurukshetra-42775",
+  "https://www.shiksha.com/college/aurora-group-of-institutions-chikkadpally-hyderabad-48420",
+  "https://www.shiksha.com/college/apex-institute-of-technology-rampur-59347",
+  "https://www.shiksha.com/college/arya-college-jaipur-236418",
+  "https://www.shiksha.com/college/akido-college-of-engineering-bahadurgarh-38490",
+  "https://www.shiksha.com/college/indus-college-of-engineering-bhubaneswar-42606",
+  "https://www.shiksha.com/college/chendhuran-college-of-engineering-and-technology-tamil-nadu-other-61683",
+  "https://www.shiksha.com/college/college-of-agricultural-engineering-and-technology-dapoli-ratnagiri-67001",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1401
+    c_count =1821
 
     try:
         for base_url in BASE_URL:
