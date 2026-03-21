@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/shri-sangved-sanskrit-mahavidyalaya-uttar-pradesh-other-116469",
-  "https://www.shiksha.com/college/don-bosco-institute-of-technology-and-science-guntur-188403",
-  "https://www.shiksha.com/college/ambal-professional-group-of-institutions-coimbatore-42847",
-  "https://www.shiksha.com/college/atmakur-engineering-college-nellore-46777",
-  "https://www.shiksha.com/college/audisankara-college-of-engineering-for-women-nellore-47271",
-  "https://www.shiksha.com/college/shivani-college-of-engineering-and-technology-tiruchirappalli-53905",
-  "https://www.shiksha.com/college/simhadri-educational-society-group-of-institutions-visakhapatnam-60983",
-  "https://www.shiksha.com/college/benaiah-institute-of-technology-and-sciences-rajahmundry-61143",
-  "https://www.shiksha.com/college/techno-india-balurghat-west-bengal-other-61433",
-  "https://www.shiksha.com/college/veerammal-engineering-college-dindigul-61751",
-  "https://www.shiksha.com/college/mahatma-gandhi-missions-college-of-engineering-nanded-63657",
-  "https://www.shiksha.com/college/global-group-of-institutions-anandpur-sahib-ropar-65191",
-  "https://www.shiksha.com/college/yaduvanshi-college-of-engineering-and-technology-narnaul-66863",
-  "https://www.shiksha.com/college/shivramji-pawar-gramin-institute-of-food-technology-nanded-66925",
-  "https://www.shiksha.com/college/sspm-college-of-food-technology-dhule-66959",
-  "https://www.shiksha.com/college/sendhwa-institute-of-professional-studies-barwani-230038",
-  "https://www.shiksha.com/college/bishambhar-sahay-institute-of-technology-roorkee-66545",
-  "https://www.shiksha.com/college/krishna-engineering-college-bhilai-66765",
-  "https://www.shiksha.com/college/avanthi-institute-of-engineering-technology-vizianagaram-188397",
-  "https://www.shiksha.com/college/impact-college-of-engineering-and-applied-sciences-powered-by-sunstone-bangalore-226959",
+  "https://www.shiksha.com/college/fs-college-of-pharmacy-and-research-centre-firozabad-181769",
+  "https://www.shiksha.com/college/babu-sunder-singh-college-of-pharmacy-lucknow-181901",
+  "https://www.shiksha.com/college/rk-college-of-physiotherapy-ballari-186709",
+  "https://www.shiksha.com/college/soham-institute-of-nursing-ahmedabad-197067",
+  "https://www.shiksha.com/college/mar-ivanios-school-of-nursing-kollam-200887",
+  "https://www.shiksha.com/college/subramania-barathi-college-of-scinece-and-technology-delhi-207557",
+  "https://www.shiksha.com/college/tupudana-institute-of-medical-sciences-ranchi-207655",
+  "https://www.shiksha.com/college/rml-college-of-pharmacy-belgaum-207861",
+  "https://www.shiksha.com/college/swamy-vivekananda-institute-of-pharmacy-raichur-207985",
+  "https://www.shiksha.com/college/a-j-college-of-pharmacy-trivandrum-208023",
+  "https://www.shiksha.com/college/sagar-pharmacy-college-kota-208209",
+  "https://www.shiksha.com/college/rvs-padmavathi-institute-of-pharmacy-and-research-centre-dindigul-208261",
+  "https://www.shiksha.com/college/government-degree-college-venkatagiri-nellore-209601",
+  "https://www.shiksha.com/college/sri-satya-sai-pharmacy-research-institute-indore-88073",
+  "https://www.shiksha.com/college/new-montfort-institute-of-pharmacy-kolkata-88605",
+  "https://www.shiksha.com/college/kd-gavit-diploma-in-pharmacy-college-jalgaon-88965",
+  "https://www.shiksha.com/college/m-p-college-bihar-other-114525",
+  "https://www.shiksha.com/college/bes-college-of-education-bangalore-118585",
+  "https://www.shiksha.com/college/santushti-college-of-medical-and-higher-studies-mirzapur-148829",
+  "https://www.shiksha.com/college/snsk-institute-of-pharmacy-ghazipur-149161",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2241
+    c_count =3561
 
     try:
         for base_url in BASE_URL:
