@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/fs-college-of-pharmacy-and-research-centre-firozabad-181769",
-  "https://www.shiksha.com/college/babu-sunder-singh-college-of-pharmacy-lucknow-181901",
-  "https://www.shiksha.com/college/rk-college-of-physiotherapy-ballari-186709",
-  "https://www.shiksha.com/college/soham-institute-of-nursing-ahmedabad-197067",
-  "https://www.shiksha.com/college/mar-ivanios-school-of-nursing-kollam-200887",
-  "https://www.shiksha.com/college/subramania-barathi-college-of-scinece-and-technology-delhi-207557",
-  "https://www.shiksha.com/college/tupudana-institute-of-medical-sciences-ranchi-207655",
-  "https://www.shiksha.com/college/rml-college-of-pharmacy-belgaum-207861",
-  "https://www.shiksha.com/college/swamy-vivekananda-institute-of-pharmacy-raichur-207985",
-  "https://www.shiksha.com/college/a-j-college-of-pharmacy-trivandrum-208023",
-  "https://www.shiksha.com/college/sagar-pharmacy-college-kota-208209",
-  "https://www.shiksha.com/college/rvs-padmavathi-institute-of-pharmacy-and-research-centre-dindigul-208261",
-  "https://www.shiksha.com/college/government-degree-college-venkatagiri-nellore-209601",
-  "https://www.shiksha.com/college/sri-satya-sai-pharmacy-research-institute-indore-88073",
-  "https://www.shiksha.com/college/new-montfort-institute-of-pharmacy-kolkata-88605",
-  "https://www.shiksha.com/college/kd-gavit-diploma-in-pharmacy-college-jalgaon-88965",
-  "https://www.shiksha.com/college/m-p-college-bihar-other-114525",
-  "https://www.shiksha.com/college/bes-college-of-education-bangalore-118585",
-  "https://www.shiksha.com/college/santushti-college-of-medical-and-higher-studies-mirzapur-148829",
-  "https://www.shiksha.com/college/snsk-institute-of-pharmacy-ghazipur-149161",
+  "https://www.shiksha.com/college/mahala-institute-of-pharmacy-sikar-208199",
+  "https://www.shiksha.com/college/k-m-r-college-of-pharmacy-tamil-nadu-other-208239",
+  "https://www.shiksha.com/college/college-of-pharmacy-integral-university-shahjahanpur-208287",
+  "https://www.shiksha.com/college/jis-institute-of-pharmacy-ludhiana-245160",
+  "https://www.shiksha.com/college/institute-for-career-growth-lajpat-nagar-delhi-52519",
+  "https://www.shiksha.com/college/s-n-a-institute-of-pharmacy-barabanki-65659",
+  "https://www.shiksha.com/college/r-r-k-samithi-s-college-of-pharmacy-bidar-67769",
+  "https://www.shiksha.com/college/shantadevi-vedprakash-patil-homoeopathic-college-maharashtra-other-70145",
+  "https://www.shiksha.com/college/netaji-institute-of-pharmaceutical-sciences-nalgonda-70239",
+  "https://www.shiksha.com/college/c-l-chouksey-homoeopathic-college-hospital-and-research-centre-chhattisgarh-other-87213",
+  "https://www.shiksha.com/college/punjab-multipurpose-medical-institute-barnala-89253",
+  "https://www.shiksha.com/college/elumalaiyan-polytechnic-college-thiruvarur-98017",
+  "https://www.shiksha.com/college/aerp-college-palwal-100907",
+  "https://www.shiksha.com/college/baps-pramukh-swami-hospital-surat-106055",
+  "https://www.shiksha.com/college/shri-komal-sahu-smarak-mahavidyalaya-azamgarh-133903",
+  "https://www.shiksha.com/college/sanjeevani-hospital-and-medical-research-institute-haridwar-149201",
+  "https://www.shiksha.com/college/snd-diploma-college-of-pharmacy-nashik-156891",
+  "https://www.shiksha.com/college/yashwantrao-bhonsale-college-of-d-pharmacy-sindhudurg-156897",
+  "https://www.shiksha.com/college/i-i-t-m-college-of-science-arts-and-commerce-sonepat-202259",
+  "https://www.shiksha.com/college/anuradha-college-of-pharmacy-bangalore-207671",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =3561
+    c_count =3901
 
     try:
         for base_url in BASE_URL:
