@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/mahala-institute-of-pharmacy-sikar-208199",
-  "https://www.shiksha.com/college/k-m-r-college-of-pharmacy-tamil-nadu-other-208239",
-  "https://www.shiksha.com/college/college-of-pharmacy-integral-university-shahjahanpur-208287",
-  "https://www.shiksha.com/college/jis-institute-of-pharmacy-ludhiana-245160",
-  "https://www.shiksha.com/college/institute-for-career-growth-lajpat-nagar-delhi-52519",
-  "https://www.shiksha.com/college/s-n-a-institute-of-pharmacy-barabanki-65659",
-  "https://www.shiksha.com/college/r-r-k-samithi-s-college-of-pharmacy-bidar-67769",
-  "https://www.shiksha.com/college/shantadevi-vedprakash-patil-homoeopathic-college-maharashtra-other-70145",
-  "https://www.shiksha.com/college/netaji-institute-of-pharmaceutical-sciences-nalgonda-70239",
-  "https://www.shiksha.com/college/c-l-chouksey-homoeopathic-college-hospital-and-research-centre-chhattisgarh-other-87213",
-  "https://www.shiksha.com/college/punjab-multipurpose-medical-institute-barnala-89253",
-  "https://www.shiksha.com/college/elumalaiyan-polytechnic-college-thiruvarur-98017",
-  "https://www.shiksha.com/college/aerp-college-palwal-100907",
-  "https://www.shiksha.com/college/baps-pramukh-swami-hospital-surat-106055",
-  "https://www.shiksha.com/college/shri-komal-sahu-smarak-mahavidyalaya-azamgarh-133903",
-  "https://www.shiksha.com/college/sanjeevani-hospital-and-medical-research-institute-haridwar-149201",
-  "https://www.shiksha.com/college/snd-diploma-college-of-pharmacy-nashik-156891",
-  "https://www.shiksha.com/college/yashwantrao-bhonsale-college-of-d-pharmacy-sindhudurg-156897",
-  "https://www.shiksha.com/college/i-i-t-m-college-of-science-arts-and-commerce-sonepat-202259",
-  "https://www.shiksha.com/college/anuradha-college-of-pharmacy-bangalore-207671",
+  "https://www.shiksha.com/college/shri-mahakaleshwar-pharmacy-college-azamgarh-181653",
+  "https://www.shiksha.com/college/faujdar-college-of-pharmacy-ghazipur-181781",
+  "https://www.shiksha.com/college/maa-vaishnavi-pharmacy-college-jaunpur-181847",
+  "https://www.shiksha.com/college/jeeramani-jagdish-institute-of-pharmacy-jharkhand-other-207605",
+  "https://www.shiksha.com/college/prestige-college-of-pharmacy-tumkur-207827",
+  "https://www.shiksha.com/college/st-peter-s-college-faridabad-211543",
+  "https://www.shiksha.com/university/dnyaan-prasad-global-university-dr-d-y-patil-unitech-society-pune-226891",
+  "https://www.shiksha.com/college/torch-bearers-institute-of-pharmacy-and-research-faridabad-236480",
+  "https://www.shiksha.com/college/nirmala-devi-polytechnic-college-jharkhand-other-236530",
+  "https://www.shiksha.com/college/n-k-college-of-pharmacy-buldana-236728",
+  "https://www.shiksha.com/college/einstein-college-of-pharmacy-orissa-other-236828",
+  "https://www.shiksha.com/college/i-world-institute-of-pharmacy-midnapore-237274",
+  "https://www.shiksha.com/college/apollo-adlux-hospital-ernakulum-240750",
+  "https://www.shiksha.com/college/gg-hospital-thiruvananthapuram-240786",
+  "https://www.shiksha.com/college/sri-sathya-sai-sanjeevani-centre-for-child-heart-care-and-training-navi-mumbai-241876",
+  "https://www.shiksha.com/college/paras-hospital-udaipur-243696",
+  "https://www.shiksha.com/college/sagar-college-of-pharmacy-belgaum-244812",
+  "https://www.shiksha.com/college/viraat-ramayan-institute-of-medical-sciences-motihari-245850",
+  "https://www.shiksha.com/college/onkar-college-of-pharmacy-sangrur-99713",
+  "https://www.shiksha.com/college/institute-of-pharmacy-jalgaon-100187",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =3901
+    c_count =4261
 
     try:
         for base_url in BASE_URL:
