@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/shri-mahakaleshwar-pharmacy-college-azamgarh-181653",
-  "https://www.shiksha.com/college/faujdar-college-of-pharmacy-ghazipur-181781",
-  "https://www.shiksha.com/college/maa-vaishnavi-pharmacy-college-jaunpur-181847",
-  "https://www.shiksha.com/college/jeeramani-jagdish-institute-of-pharmacy-jharkhand-other-207605",
-  "https://www.shiksha.com/college/prestige-college-of-pharmacy-tumkur-207827",
-  "https://www.shiksha.com/college/st-peter-s-college-faridabad-211543",
-  "https://www.shiksha.com/university/dnyaan-prasad-global-university-dr-d-y-patil-unitech-society-pune-226891",
-  "https://www.shiksha.com/college/torch-bearers-institute-of-pharmacy-and-research-faridabad-236480",
-  "https://www.shiksha.com/college/nirmala-devi-polytechnic-college-jharkhand-other-236530",
-  "https://www.shiksha.com/college/n-k-college-of-pharmacy-buldana-236728",
-  "https://www.shiksha.com/college/einstein-college-of-pharmacy-orissa-other-236828",
-  "https://www.shiksha.com/college/i-world-institute-of-pharmacy-midnapore-237274",
-  "https://www.shiksha.com/college/apollo-adlux-hospital-ernakulum-240750",
-  "https://www.shiksha.com/college/gg-hospital-thiruvananthapuram-240786",
-  "https://www.shiksha.com/college/sri-sathya-sai-sanjeevani-centre-for-child-heart-care-and-training-navi-mumbai-241876",
-  "https://www.shiksha.com/college/paras-hospital-udaipur-243696",
-  "https://www.shiksha.com/college/sagar-college-of-pharmacy-belgaum-244812",
-  "https://www.shiksha.com/college/viraat-ramayan-institute-of-medical-sciences-motihari-245850",
-  "https://www.shiksha.com/college/onkar-college-of-pharmacy-sangrur-99713",
-  "https://www.shiksha.com/college/institute-of-pharmacy-jalgaon-100187",
+  "https://www.shiksha.com/college/k-r-institutions-kanakapura-road-bangalore-67811",
+  "https://www.shiksha.com/college/pandit-jawaharlal-nehru-memorial-institute-of-homoeopathic-medical-sciences-amravati-87021",
+  "https://www.shiksha.com/college/south-central-railway-central-hospital-secunderabad-105917",
+  "https://www.shiksha.com/college/dvm-college-of-pharmacy-gurgaon-156885",
+  "https://www.shiksha.com/college/college-of-pharmacy-medha-satara-189631",
+  "https://www.shiksha.com/college/padmashree-college-of-hopspital-management-bangalore-201997",
+  "https://www.shiksha.com/college/vlcc-institute-of-beauty-and-nutrition-kirti-nagar-kirti-nagar-delhi-29370",
+  "https://www.shiksha.com/college/sagar-institute-of-research-and-technology-pharmacy-bhopal-56265",
+  "https://www.shiksha.com/college/symbiosis-centre-for-skill-development-nagpur-240970",
+  "https://www.shiksha.com/college/school-of-nursing-baby-memorial-hospital-calicut-90937",
+  "https://www.shiksha.com/college/choithram-hospital-and-research-centre-indore-106079",
+  "https://www.shiksha.com/college/neelsaroj-institute-of-pharmacy-karnataka-other-156737",
+  "https://www.shiksha.com/college/government-medical-college-ramanathapuram-tamil-nadu-other-180723",
+  "https://www.shiksha.com/college/g-v-k-emergency-management-and-research-institute-secunderabad-194233",
+  "https://www.shiksha.com/college/shri-ram-college-of-nursing-mahendragarh-195177",
+  "https://www.shiksha.com/college/gyan-sagar-college-of-pharmacy-sagar-213257",
+  "https://www.shiksha.com/college/ujala-cygnus-rainbow-hospital-agra-245228",
+  "https://www.shiksha.com/college/clinomic-center-for-clinical-research-pvt-ltd-andheri-west-andheri-west-mumbai-53752",
+  "https://www.shiksha.com/college/vishnu-ayurveda-college-palakkad-66141",
+  "https://www.shiksha.com/college/government-medical-college-baramulla-69983",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =4261
+    c_count =2561
 
     try:
         for base_url in BASE_URL:
